@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-header{
+	background-color: #ffffff;
+	border-bottom: 3px solid #87A922;
+}
+
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+.header-logo img{
+	height: 100px;
+}
+
+.pages{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 20px;
+	list-style: none;
+	display: flex;
+	gap: 40px;
+}
+
+.pages a{
+	color: #114232;
+	text-decoration: none;
+}
+
+.header-icon{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 20px;
+	display: flex;
+	gap: 40px;
+}
+
+.header-icon a{
+	color: #114232;
+	text-decoration: none;
+}
+
+.hero-banner{
+	padding: 180px 0;
+	background-image: url(hero-banner-image.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+}
+
+.hero-banner h2{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 80px;
+  	color: #ffffff;
+  	text-shadow: 2px 2px 4px #114232;
+  	margin-bottom: 30px;
+  	line-height: 50px;
+}
+
+.hero-banner h3{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 70px;
+  	color: #87A922;
+  	margin-bottom: 30px;
+  	line-height: 50px;
+}
+
+.hero-banner ul{
+  	font-size: 17px;
+  	font-weight: 400;
+  	color: #114232;
+  	line-height: 27px;
+  	margin-bottom: 30px;
+  	list-style-type: none;
+}
+
+.hero-banner ul li:before{
+	content: '✓ ';
+}
+
+.hero-banner-btn{
+	background-color: #FF9800;
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 15px;
+  	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 12px 17px;
+	transition: .5s;
+}
+
+.hero-banner-btn:hover{
+	background: #87A922;
+}
+
+/* Sara's parts */
+
+
+
+
+
+/* Sara's parts */
+
+.page-footer{
+	background: #EEF0E5;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.page-footer h2{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 40px;
+  	color: #114232;
+  	margin-bottom: 20px;
+}
+
+.page-footer h3{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 17px;
+  	color: #114232;
+  	margin-bottom: 30px;
+}
+
+input{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-size: 15px;
+  	color: #114232;
+  	border: 2px solid gray;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.page-footer img{
+	margin-bottom: 20px;
+	width: 30px;
+}
+
+.page-footer p{
+	font-family: "Roboto", sans-serif; 	
+  	font-style: normal;
+	font-weight: 400;
+  	font-size: 15px;
+  	color: #114232;
+}
