@@ -118,10 +118,128 @@
 }
 
 /* Sara's parts */
+.parent-flex{
+	display:flex;
+	gap:70px;
+}
+.left-side{
+	width: 50%;
+}
 
+.right-side{
+	width: 50%;
+	background-image:url("healthy.jpg"); 
+	background-size: cover;
+	background-position: right;
+}
+	
+.btn-1{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	background-color: #90a955;
+	color: #fff;
+	padding: 14px 28px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 15px;
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
 
+.btn-1:hover{
+	background: #fff;
+	color: #000;
+}
 
+.btn-2{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	background-color: #90a955;
+	color: #fff;
+	padding: 14px 28px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 15px;
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
 
+.btn-2:hover{
+	background: #fff;
+	color: #000;
+}
+
+.lisa-banner2{
+	text-align: center;
+	padding: 70px 0;
+}
+
+.lisa-banner2 h2{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	font-size: 40px;
+	margin-bottom:30px;
+	font-weight: 700;
+	color:#4f772d;
+} 
+.lisa-banner2 h4{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 30px;
+	color:#31572c;
+}
+.lisa-banner2 p{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	font-size: 20px;
+	margin-bottom:30px;
+	font-weight: 700;
+	color:#31572c;
+	line-height: 28px;
+}
+.insc{
+	background-image: url("vege1.jpeg");
+	background-position: center;
+	padding: 90px 0;
+	text-align: center;
+}
+.insc input[type=text]{
+	width: 50%;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	margin-bottom: 15px;
+}
+
+.insc h2{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	font-size: 35px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.insc form{
+	font-family: "Roboto", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+	font-size: 20px;
+	font-weight: 500;
+}
+.insc label{
+	display: block;
+	color: #114232;
+}
 
 /* Sara's parts */
 
