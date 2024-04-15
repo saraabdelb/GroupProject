@@ -118,10 +118,85 @@
 }
 
 /* Sara's parts */
+.parent-flex{
+	display:flex;
+	gap:70px;
+}
+.left-side{
+	width: 50%;
+}
 
+.right-side{
+	width: 50%;
+	background-image:url("healthy.jpg"); 
+	background-size: cover;
+	background-position: right;
+}
+	
+.btn{
+	background-color: #90a955;
+	color: #fff;
+	padding: 14px 28px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
+.btn:hover{
+	background: #fff;
+	color: #000;
+}
+.lisa-banner2{
+	text-align: center;
+	padding: 70px 0;
+}
 
+.lisa-banner2 h2{
+	font-size: 40px;
+	margin-bottom:30px;
+	font-weight: 700;
+	color:#4f772d;
+} 
+.lisa-banner2 h4{
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 30px;
+	color:#31572c;
+}
+.lisa-banner2 p{
+	font-size: 20px;
+	margin-bottom:30px;
+	font-weight: 700;
+	color:#31572c;
+	line-height: 28px;
+}
+.insc{
+	border: 4px solid green;
+	background-image: url("vege1.jpeg");
+	background-position: center;
+	padding: 90px 0;
+	text-align: center;
+}
+.insc input{
+	margin-bottom: 15px;
+}
 
-
+.insc h2{
+	font-size: 35px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.insc form{
+	font-size: 20px;
+	font-weight: 500;
+}
+.insc label{
+	display: block;
+}
 
 /* Sara's parts */
 
